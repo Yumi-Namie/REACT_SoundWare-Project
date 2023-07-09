@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1024px) {
+    
+    .footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    background-color: #211F27;
+    display: grid;
+    justify-content:space-around;
+    align-items: center;
+    height: 7%;
+    left: 0;
+    padding: 0.5rem 8rem;
+    grid-template-columns: 1fr 4fr 1.5fr .5fr;
+}
+}

@@ -1,0 +1,26 @@
+/* Mobile */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: right;
+    gap: 12%;
+}
+
+.navbar-left {
+    width: 50%;
+    text-align: left;
+}

@@ -1,0 +1,19 @@
+
+@media only screen and (min-width: 1024px){
+    .form {
+        padding: 2rem;
+        margin: 1rem 1rem;
+        height: 25rem;
+        width: 30rem;
+    }
+
+    .ui.form input {
+        background-color: transparent;
+        height: 2.5rem;
+        border: .12rem solid #2E3852;
+        border-radius: .5rem;
+        color: #a6a4b2;
+        width: 100%;
+    }
+
+}

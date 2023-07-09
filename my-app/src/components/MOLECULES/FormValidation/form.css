@@ -1,0 +1,38 @@
+
+/* Mobile */
+.form {
+    display: flex;
+    justify-content:space-between;
+    gap: 1.5rem;
+    align-items: left;
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color: #211F27;
+    padding: 2rem 3rem;
+    font-size: .8rem;
+}
+
+.field {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.ui.form input {
+    background-color: transparent;
+    height: 2rem;
+    border: .12rem solid #2E3852;
+    border-radius: .5rem;
+    color: #a6a4b2;
+    width: 100%;
+}
+
+.ui.form input:focus {
+    border-color: #596da0;
+}
+
+.ui.form label {
+    font-weight: bold;
+}

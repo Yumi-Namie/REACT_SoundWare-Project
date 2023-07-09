@@ -1,0 +1,24 @@
+.logo-container {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-link{
+    text-decoration: none;
+    width: 50%;
+}
+.logo-title {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 480px){
+    .logo {
+        width: 25%;
+        height: 25%;
+    }
+}

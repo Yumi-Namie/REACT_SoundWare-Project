@@ -1,0 +1,48 @@
+@media only screen and (min-width: 1024px) {
+    
+
+    .main-join {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-join h2 {
+        font-family: 'PopBold', sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 70%;
+        gap: 4rem;
+    }
+
+    .pink-circle{
+        width: 40%;
+        padding-bottom: 40%;
+        background-color: #412C41;
+        border-radius: 50%;
+        position: absolute;
+        bottom:1%;
+        left: -9%;
+        opacity: 1;
+        z-index: -1; 
+    }
+    
+    .purple-circle{
+        width: 40%;
+        padding-bottom: 40%;
+        background-color: #363651;
+        border-radius: 50%;
+        position: absolute;
+        top:-25%;
+        left: 14%;
+        z-index: -1;
+    }
+}

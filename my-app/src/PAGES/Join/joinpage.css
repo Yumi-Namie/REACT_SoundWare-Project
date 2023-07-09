@@ -1,0 +1,66 @@
+
+/* Mobile */
+@font-face {
+    font-family: 'PopBold';
+    src: url('../../assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 425px) {
+    .main-join h2 {
+        font-family: 'PopBold', sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: white;
+        margin-right: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+}
+
+    .main-join {
+        padding: 1rem 1rem 0;
+        bottom: 0;
+    }
+
+
+    .main-join span {
+        color: #E01885;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 4rem 0;
+        height: 90%;
+    
+    }
+
+    .pink-circle{
+        width: 35%;
+        padding-bottom: 35%;
+        background-color: #412C41;
+        border-radius: 50%;
+        position: absolute;
+        bottom:1%;
+        left: -9%;
+        opacity: 1;
+        z-index: -1; 
+    }
+    
+    .purple-circle{
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: #363651;
+    border-radius: 50%;
+    position: absolute;
+    top:-6%;
+    left: 18%;
+    z-index: -1;
+    }

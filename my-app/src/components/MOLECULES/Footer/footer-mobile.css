@@ -1,0 +1,14 @@
+
+/* Mobile */
+.footer {
+width: 100vw;
+position: fixed;
+bottom: 0;
+background-color: #211F27;
+display: flex;
+justify-content:space-around;
+align-items: center;
+height: 7%;
+left: 0;
+padding: 0rem 1rem;
+}
