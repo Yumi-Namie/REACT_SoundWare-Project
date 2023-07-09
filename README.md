@@ -1,69 +1,62 @@
-# SOUNDWAVE: un proyecto de React con estilo
+# 🎧 SoundWave Proyect
 
-## Introducción
+This individual project involves developing a web page for SoundWave, replicating the provided prototype with certain technical requirements:
 
-SoundWave, se ha posicionado en el mercado como la competencia directa de Spotify. Con una calidad de sonido extraordinaria y la gran variedad de canciones que ofrece está ganando adeptos a pasos agigantados. No obstante, quieren acelerar el proceso de subscripción a su plataforma con una nueva campaña de marketing digital.
+- Developed in <b>React with TypeScript</b>.
+- Should be <b>responsive</b> for mobile (375px) and laptop.
+- Styles should be applied using <b>CSS modules</b> and the <b>Semantic UI</b> framework.
+- Implementing navbar routes with <b>react-router-dom</b>.
+- Applying <b>Atomic Design</b> principles.
+- The use of <b>Hooks</b> (state) and <b>Props</b> (properties) is optional.
 
-Han contactado contigo por tu reputación como maquetadora web, y te piden que lleves a cabo el desarrollo de una landing page para buscar nuevos suscriptores. Formas parte de un equipo interdisciplinar donde una UX Designer ya ha construido la maqueta que tendrás que llevar al código. Posteriormente, el equipo de marketing digital posicionará la página en los navegadores.
+##  Resources
+- 🎨 Style guide: <a href="https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/0b528713-7dbc-4261-b4b7-0070dd4e7021.pdf" target="_blank"> Click here</a>
+- 🖼️ Mockup: <a href="https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/46391d6c-b766-4ed3-a121-72c9b2a15960.pdf" target="_blank"> Click here</a>
+- 💡 Semantic UI: <a href="https://react.semantic-ui.com/" target="_blank"> Click here</a>
 
-## Requerimientos técnicos
+##  🛠 Work Process
+- Requirements Analysis
+- Mockup Analysis and Component Identification
+- Visual Design Analysis
+- Setup: Installing React, React Router, TypeScript, Semantic UI
+- File Organization: Structuring the project based on components and Atomic Design principles
+- Creating Files: Using the shortcut command "rfc" to generate files
+- Creating Routes: Setting up routes in the App.tsx file
+- Development: Starting development for each created file, beginning with atoms and their respective CSS (mobile-first approach) and ending with pages.
 
-- La web deberá estar desarrollada en React con TypeScript.
-- La web deberá ser responsive.
-- Los estilos deberán aplicarse con módulos css, styled components, o algún framework de css.
-- La web deberá ser fiel al prototipo.
-- La web deberá estar desplegada.
-- Se deberá usar SCRUM para organizar el sprint.
-- Se investigará qué es react-router-dom y se utilizará para las rutas de la navbar.
-- Se aplicará Atomic Design.
-- Podéis utilizar hooks y props (pero no es imprescindible).
+_important commands:_
 
-## Recursos
-
-<details>
-  <summary>Imágenes</summary>
-
-    - landing-page-girl.png
-    - covers.jpg
-    - more.svg
-    - albums.svg
-    - logo.png
-    - microphone.svg
-    - twitter.svg
-
-
-</details>
-
-- **[Mockup](https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/46391d6c-b766-4ed3-a121-72c9b2a15960.pdf)**
-- **[Carta gráfica](https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/0b528713-7dbc-4261-b4b7-0070dd4e7021.pdf)**
-- **[How to CSS Style in React](https://www.robinwieruch.de/react-css-styling/)**
-- **[Styled-components](https://styled-components.com/)**
-- **[React-Bootstrap](https://react-bootstrap.github.io/)**
-- **[React Semantic UI Tutorial for Beginners](https://www.robinwieruch.de/react-semantic-ui-tutorial/)**
-- **[MUI Core: Ready to use components, free forever](https://mui.com/core/)**
-- **[Ant Design](https://ant.design/)**
-- **[React - Una biblioteca de JavaScript para construir interfaces de usuario](https://es.reactjs.org/)**
-- **[Vite-Typescript](https://vitejs.dev/guide/)**
-- **[React-Router](https://reactrouter.com/en/main/start/overview)**
+- $ node -v
+- $ npm -v
+- $ npm create vite@latest <i>project-name</i> -> (y) -> React -> Typescript
+- $ cd <i>project-name</i>
+- $ npm install semantic-ui-react semantic-ui-css
+- $ npm run dev -> localhost:5173
 
 
+## Project
+Take a look: <a href="" target="_blank"> Click here</a>
 
-## Entregables
+### >> Desktop
+![Home](/my-app/src/assets/web-home.png)&emsp;
+![Discover](/my-app/src/assets/web-discover.png)&emsp;
+![Join](/my-app/src/assets/web-join.png)
 
-- Repositorio de GitHub.
-- Enlace del despliegue.
 
-## Modalidad
+### >> Mobile
+![Alt text](/my-app/src/assets/mobile-screen.png)
 
-- Trabajo individual.
-- Este sprint, durará una semana. La entrega será el 13/07/2023
-- Presentación: Se hará una presentación en conjunto, de cada framework de CSS en React, puesto en práctica. Pero no obviará a nadie de presentar su proyecto.
 
-## Rúbrica de evaluación
 
-|  | 1 | 2 | 3 |
-| --- | --- | --- | --- |
-| Indicador | Deficiente | Regular | Excelente |
-| Maquetar una aplicación | La maquetación no es conforme al mockoup. Hay diferencias notables con el prototipo. | La maquetación respeta la carta gráfica. Pero no termina de ser totalmente responsive. | La maquetación respeta la carta gráfica de la empresa. Adaptar las interfaces al tipo de dispositivo teniendo en cuenta la experiencia del usuario y, en el caso de los dispositivos móviles, las características ergonómicas. |
-| Desarrollar una interfaz de usuario web dinámica | Las interacciones del lado del cliente (front-end) no funcionan. | Las interacciones del lado del cliente (front-end) si funcionan. | La web está alineada con la experiencia de usuario, incluyendo la experiencia móvil. La arquitectura de la aplicación se ajusta a las buenas prácticas de desarrollo. Los test garantizan que la página web cumplen los requisitos descritos en las especificaciones. |
-| Crear una interfaz de usuario web estática y adaptable | No se aplican los cambios necesarios solicitados en la descripción de necesidades. | Se aplican los cambios necesarios solicitados en la descripción de necesidades. | La interfaz se realiza conforme al diseño de la aplicación. La página web respeta la carta gráfica de la empresa. Se respetan las buenas prácticas de estructuración. La app es accesible desde el navegador, incluso desde un móvil. Se adapta al tamaño de la pantalla. |
+## 💻 Tools and  Technologies
+<div> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+&emsp;
+<img src="https://img.icons8.com/?size=1x&id=t5K2CR8feVdX&format=gif" alt="react" width="40" heigth="40"/>
+&emsp;
+<img src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo-thumbnail.png" alt="vscode" width="40" heigth="40"/>
+&emsp;
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+&emsp;
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="40" heigth="40"/> </div>
