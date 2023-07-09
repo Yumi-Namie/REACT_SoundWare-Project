@@ -30,12 +30,14 @@ _important commands:_
 - $ npm -v
 - $ npm create vite@latest <i>project-name</i> -> (y) -> React -> Typescript
 - $ cd <i>project-name</i>
+- $ npm install react-router-dom
 - $ npm install semantic-ui-react semantic-ui-css
 - $ npm run dev -> localhost:5173
+- $ npm run build
 
 
 ## Project
-Take a look: <a href="" target="_blank"> Click here</a>
+Take a look: <a href="https://react-sound-ware-project.vercel.app/" target="_blank"> Click here</a>
 
 ### >> Desktop
 ![Home](/my-app/src/assets/web-home.png)&emsp;
