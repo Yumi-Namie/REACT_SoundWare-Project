@@ -14,6 +14,7 @@
         border-radius: .5rem;
         color: #a6a4b2;
         width: 100%;
+        box-sizing: border-box;
     }
 
 }
