@@ -1,4 +1,4 @@
-# 🎧 SoundWave Proyect
+# 🎧 SoundWave Project
 
 This individual project involves developing a web page for SoundWave, replicating the provided prototype with certain technical requirements:
 
